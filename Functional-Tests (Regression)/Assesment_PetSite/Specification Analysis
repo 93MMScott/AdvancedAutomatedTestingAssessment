@@ -1,0 +1,21 @@
+- Usable for regression testing
+
+- Functional testing of API functionality specific to /owners/ and /users/ end-points
+	* post user /users/
+	* post owner api/owners/
+	* get owners list api/owners/
+	* get owner by lastname /api/owners/*/lastname/{lastName}
+	* get owner by ID api/owners/id
+	* update owner api/owners/id
+	* delete owner api/owners/id
+	
+- Non-functional testing of API using JMeter:
+	Smoke Test, Spike Test and a Load Test
+	
+- Non-technical reports (deliverables)
+   : graph for load test
+   : graph for spike test
+   : .csv for smoke test. This should include only 1 execution of each request.
+   : extent report (functional testing)
+   
+ - Upload to github

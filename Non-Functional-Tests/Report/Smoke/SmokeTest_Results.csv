@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1.54047E+12,29,Post User,201,,Smoke_Post 2-1,text,TRUE,,317,709,1,6,http://10.0.10.10:9966/petclinic/api/owners/,28,0,18
+1.54047E+12,33,Get by ID,200,,Smoke_GetByID 3-1,text,TRUE,,370,141,1,5,http://10.0.10.10:9966/petclinic/api/owners/1,33,0,18
+1.54047E+12,32,Delete,404,,Smoke_Delete 5-1,,TRUE,,73,228,1,5,http://10.0.10.10:9966/petclinic/api/owners/17,32,0,18
+1.54047E+12,34,Get by Name,200,,Smoke_GetByName 4-1,text,TRUE,,719,158,1,3,http://10.0.10.10:9966/petclinic/api/owners/*/lastname/Coleman,34,0,18
+1.54047E+12,36,Update,204,,Smoke_Put 6-1,text,TRUE,,100,709,1,2,http://10.0.10.10:9966/petclinic/api/owners/11,0,0,18
+1.54047E+12,37,Get List,200,,Smoke_GetList 1-1,text,TRUE,,3314,139,1,2,http://10.0.10.10:9966/petclinic/api/owners,37,0,18
